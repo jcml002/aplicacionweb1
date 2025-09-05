@@ -9,7 +9,7 @@ st.title("Socialize your knowledge")
 st.subheader(":bar_chart: _Pagina Web para analizar el desempeño de los colaboradores del Área de Marketing_ ",  divider=True)
 
 #Configura la barra lateral
-st.sidebar.image("logo02.jpg")
+st.sidebar.image("/mount/src/aplicacionweb1/logo02.jpg")
 
 #Filtros
 st.sidebar.header("FILTROS: ")
