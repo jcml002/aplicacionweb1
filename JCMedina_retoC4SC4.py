@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from numpy.random import default_rng as rng
 import plotly.express as px
-from PIL import Image
+#from PIL import Image
 
 #Lee el archivo
 df=pd.read_csv("Employee_data.csv")
@@ -11,11 +11,11 @@ st.title("Socialize your knowledge")
 st.subheader(":bar_chart: _Pagina Web para analizar el desempeño de los colaboradores del Área de Marketing_ ",  divider=True)
 
 #Configura la barra lateral
-#st.sidebar.image("aplicacionweb1/logo02.jpg")
+#st.sidebar.image("Logo02.jpg")
 
 
-img = Image.open('Logo02.png')
-st.sidebar.image(img)
+#img = Image.open('Logo02.png')
+#st.sidebar.image(img)
 
 
 #Filtros
