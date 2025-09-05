@@ -14,7 +14,7 @@ st.subheader(":bar_chart: _Pagina Web para analizar el desempeño de los colabor
 #st.sidebar.image("aplicacionweb1/logo02.jpg")
 
 
-img = Image.open('aplicacionweb1/logo02.png')
+img = Image.open('Logo02.png')
 st.sidebar.image(img)
 
 
