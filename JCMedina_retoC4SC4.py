@@ -11,7 +11,7 @@ st.title("Socialize your knowledge")
 st.subheader(":bar_chart: _Pagina Web para analizar el desempeño de los colaboradores del Área de Marketing_ ",  divider=True)
 
 #Configura la barra lateral
-image_1=Image.open('logo02.jpg')
+image_1=Image.open('aplicacionweb1/logo02.jpg')
 st.image(image_1)
 
 #Filtros
